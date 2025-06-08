@@ -1,0 +1,67 @@
+.App {
+  text-align: center;
+}
+
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 50px;
+  margin: 32px 0;
+  padding: 0 16px;
+}
+
+.product{
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  width: 350px;
+  height: 350px;
+  text-align: left;
+  background-color:blanchedalmond;
+}
+
+.product img {
+  width: 100%;
+  height: 70%;
+  object-fit: cover;
+}
+
+.AddProductForm > input {
+  width: 100%;
+  padding: 8px;
+  margin: 4px 0;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.AddProductForm > button {
+  width: 30%;
+  padding: 8px;
+  margin: 4px 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: none;
+}
+
+.header{
+  margin: 20px;
+  font-size: 20px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+.header > span {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.header > button {
+  padding: 8px;
+  margin: 4px 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: none;
+  background-color:aqua;
+}
